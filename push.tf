@@ -4,6 +4,6 @@ resource "null_resource" "push_to_registry" {
   }
 
   provisioner "local-exec" {
-    command = "docker push balabhaskararao/2-sep:latest" # Replace with your registry URL and image name
+    command = "docker push balabhaskararao/2-sep:$BUILD_NUMBER" # Replace with your registry URL and image name
   }
 }
