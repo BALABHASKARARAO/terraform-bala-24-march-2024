@@ -1,5 +1,5 @@
 resource "docker_image" "terraform" {
-  name = "balabhaskararao/2-sep:$BUILD_NUMBER"
+  name = "balabhaskararao/2-sep"
   build {
     context = "."
   }
