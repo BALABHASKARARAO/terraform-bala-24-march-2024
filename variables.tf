@@ -1,7 +1,7 @@
 variable "username"{
-  default = "b"
+  default = "balabhaskararao"
 }
 
 variable "password" {
-  default = "ss"
+  default = "99129@bg"
 }
